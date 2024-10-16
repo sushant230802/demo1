@@ -12,7 +12,5 @@ public class StudentMain{
 		String name=sc.nextLine();
 		System.out.println("enter your marks: ");
 		double marks=sc.nextDouble();
-		Student s3=new Student(name,marks);
-		s3.printData();
 	}
 }
